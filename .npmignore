@@ -1,0 +1,26 @@
+# Development and test files
+tests/
+.git/
+.gitignore
+.github/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CI/CD
+.travis.yml
+.circleci/
+.github/
+
+# Misc
+*.log
+npm-debug.log*
+node_modules/

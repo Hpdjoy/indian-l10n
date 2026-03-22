@@ -1,0 +1,40 @@
+{
+  "name": "indian-l10n",
+  "version": "1.0.0",
+  "description": "Indian language localization package compatible with Scratch-style translation keys. Supports Hindi, Tamil, Telugu, Bengali, and more.",
+  "main": "src/index.js",
+  "types": "index.d.ts",
+  "files": [
+    "src/",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "keywords": [
+    "l10n",
+    "i18n",
+    "localization",
+    "internationalization",
+    "scratch",
+    "indian-languages",
+    "hindi",
+    "tamil",
+    "telugu",
+    "bengali",
+    "translation",
+    "locale"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
