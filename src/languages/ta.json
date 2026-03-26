@@ -95,5 +95,32 @@
 
   "paint.colorPicker.color": "நிறம்",
   "paint.colorPicker.saturation": "செறிவு",
-  "paint.colorPicker.brightness": "ஒளிர்வு"
+  "paint.colorPicker.brightness": "ஒளிர்வு",
+
+  "gui.extension.irSensor.name": "IR சென்சார்",
+  "gui.extension.irSensor.description": "இன்ஃப்ரா-ரெட் சென்சார் மூலம் பொருள்களைக் கண்டறியுங்கள்.",
+  "gui.extension.irSensor.irReadDigital": "pin [PIN] இல் IR சென்சார் பொருளைக் கண்டறிந்ததா?",
+  "gui.extension.irSensor.irReadAnalog": "pin [PIN] இல் IR சென்சார் மதிப்பு",
+  "gui.extension.irSensor.irWaitDetect": "pin [PIN] இல் IR சென்சார் பொருளைக் கண்டறியும் வரை காத்திருக்கவும்",
+  "gui.extension.ultrasonicSensor.name": "அல்ட்ராசோனிக் சென்சார்",
+  "gui.extension.ultrasonicSensor.description": "அல்ட்ராசோனிக் சென்சார் மூலம் தூரத்தை அளவிடுங்கள்.",
+  "gui.extension.ultrasonicSensor.readDistance": "அல்ட்ராசோனிக் தூரம் (cm) படிக்கவும் trig [TRIG] echo [ECHO]",
+  "gui.extension.servoMotor.name": "சர்வோ மோட்டார்",
+  "gui.extension.servoMotor.description": "சர்வோ மோட்டாரின் துல்லியமான கோணத்தைக் கட்டுப்படுத்துங்கள்.",
+  "gui.extension.servoMotor.setAngle": "pin [PIN] இல் சர்வோவை [ANGLE] ° க்கு அமைக்கவும்",
+  "gui.extension.ledActuator.name": "LED ஆக்சுவேட்டர்",
+  "gui.extension.ledActuator.description": "LED ஐ ஆன், ஆஃப் அல்லது குறிப்பிட்ட பிரகாசத்தில் அமைக்கவும்.",
+  "gui.extension.ledActuator.setDigital": "pin [PIN] இல் LED ஐ [STATE] செய்யவும்",
+  "gui.extension.ledActuator.setPWM": "pin [PIN] இல் LED PWM ஐ [PWM] ஆக அமைக்கவும்",
+  "gui.extension.pirSensor.name": "PIR மோஷன் சென்சார்",
+  "gui.extension.pirSensor.description": "மனிதன் அல்லது விலங்கின் அசைவைக் கண்டறியுங்கள்.",
+  "gui.extension.pirSensor.motionDetected": "pin [PIN] இல் அசைவு கண்டறியப்பட்டதா?",
+  "gui.extension.pirSensor.waitMotion": "pin [PIN] இல் அசைவு கண்டறியப்படும் வரை காத்திருக்கவும்",
+  "gui.extension.dhtSensor.name": "DHT வெப்பநிலை & ஈரப்பதம்",
+  "gui.extension.dhtSensor.description": "வெப்பநிலை மற்றும் ஈரப்பதத்தைப் படிக்கவும்.",
+  "gui.extension.dhtSensor.read": "pin [PIN] இல் DHT11 இலிருந்து [TYPE] படிக்கவும்",
+  "gui.extension.buzzerActuator.name": "பஸர் ஆக்சுவேட்டர்",
+  "gui.extension.buzzerActuator.description": "வெவ்வேறு டோன்கள் மற்றும் அதிர்வெண்களை இயக்குங்கள்.",
+  "gui.extension.buzzerActuator.playTone": "pin [PIN] இல் டோன் இயக்கவும் அதிர்வெண் [FREQ] Hz",
+  "gui.extension.buzzerActuator.off": "pin [PIN] இல் டோனை நிறுத்தவும்"
 }

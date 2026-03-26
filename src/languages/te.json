@@ -95,5 +95,32 @@
 
   "paint.colorPicker.color": "రంగు",
   "paint.colorPicker.saturation": "సంతృప్తత",
-  "paint.colorPicker.brightness": "ప్రకాశం"
+  "paint.colorPicker.brightness": "ప్రకాశం",
+
+  "gui.extension.irSensor.name": "IR సెన్సార్",
+  "gui.extension.irSensor.description": "ఇన్ఫ్రారెడ్ సెన్సార్‌తో వస్తువులను గుర్తించండి.",
+  "gui.extension.irSensor.irReadDigital": "pin [PIN] పై IR సెన్సార్ వస్తువును గుర్తించిందా?",
+  "gui.extension.irSensor.irReadAnalog": "pin [PIN] పై IR సెన్సార్ విలువ",
+  "gui.extension.irSensor.irWaitDetect": "pin [PIN] పై IR సెన్సార్ వస్తువును గుర్తించే వరకు వేచి ఉండండి",
+  "gui.extension.ultrasonicSensor.name": "అల్ట్రాసోనిక్ సెన్సార్",
+  "gui.extension.ultrasonicSensor.description": "అల్ట్రాసోనిక్ సెన్సార్‌తో దూరాన్ని కొలవండి.",
+  "gui.extension.ultrasonicSensor.readDistance": "అల్ట్రాసోనిక్ దూరం (cm) చదవండి trig [TRIG] echo [ECHO]",
+  "gui.extension.servoMotor.name": "సర్వో మోటార్",
+  "gui.extension.servoMotor.description": "సర్వో మోటార్ యొక్క ఖచ్చితమైన కోణాన్ని నియంత్రించండి.",
+  "gui.extension.servoMotor.setAngle": "pin [PIN] పై సర్వోను [ANGLE] ° కి సెట్ చేయండి",
+  "gui.extension.ledActuator.name": "LED ఆక్చుయేటర్",
+  "gui.extension.ledActuator.description": "LED ని ఆన్, ఆఫ్ లేదా నిర్దిష్ట ప్రకాశానికి సెట్ చేయండి.",
+  "gui.extension.ledActuator.setDigital": "pin [PIN] పై LED ని [STATE] చేయండి",
+  "gui.extension.ledActuator.setPWM": "pin [PIN] పై LED PWM ని [PWM] కి సెట్ చేయండి",
+  "gui.extension.pirSensor.name": "PIR మోషన్ సెన్సార్",
+  "gui.extension.pirSensor.description": "మానవ లేదా జంతు కదలికను గుర్తించండి.",
+  "gui.extension.pirSensor.motionDetected": "pin [PIN] పై కదలిక గుర్తించబడిందా?",
+  "gui.extension.pirSensor.waitMotion": "pin [PIN] పై కదలిక గుర్తించబడే వరకు వేచి ఉండండి",
+  "gui.extension.dhtSensor.name": "DHT ఉష్ణోగ్రత & తేమ",
+  "gui.extension.dhtSensor.description": "ఉష్ణోగ్రత మరియు తేమను చదవండి.",
+  "gui.extension.dhtSensor.read": "pin [PIN] పై DHT11 నుండి [TYPE] చదవండి",
+  "gui.extension.buzzerActuator.name": "బజర్ ఆక్చుయేటర్",
+  "gui.extension.buzzerActuator.description": "వేర్వేరు టోన్‌లు మరియు ఫ్రీక్వెన్సీలను ప్లే చేయండి.",
+  "gui.extension.buzzerActuator.playTone": "pin [PIN] పై టోన్ ప్లే చేయండి ఫ్రీక్వెన్సీ [FREQ] Hz",
+  "gui.extension.buzzerActuator.off": "pin [PIN] పై టోన్ ఆపివేయండి"
 }

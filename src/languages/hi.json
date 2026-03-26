@@ -95,5 +95,32 @@
 
   "paint.colorPicker.color": "रंग",
   "paint.colorPicker.saturation": "संतृप्ति",
-  "paint.colorPicker.brightness": "चमक"
+  "paint.colorPicker.brightness": "चमक",
+
+  "gui.extension.irSensor.name": "IR सेंसर",
+  "gui.extension.irSensor.description": "इंफ्रारेड सेंसर से वस्तुओं का पता लगाएँ।",
+  "gui.extension.irSensor.irReadDigital": "pin [PIN] पर IR सेंसर ने वस्तु पहचानी?",
+  "gui.extension.irSensor.irReadAnalog": "pin [PIN] पर IR सेंसर का मान",
+  "gui.extension.irSensor.irWaitDetect": "जब तक pin [PIN] पर IR सेंसर वस्तु न पहचाने, रुकें",
+  "gui.extension.ultrasonicSensor.name": "अल्ट्रासोनिक सेंसर",
+  "gui.extension.ultrasonicSensor.description": "अल्ट्रासोनिक सेंसर से दूरी मापें।",
+  "gui.extension.ultrasonicSensor.readDistance": "अल्ट्रासोनिक दूरी (cm) पढ़ें trig [TRIG] echo [ECHO]",
+  "gui.extension.servoMotor.name": "सर्वो मोटर",
+  "gui.extension.servoMotor.description": "सर्वो मोटर का सटीक कोण नियंत्रित करें।",
+  "gui.extension.servoMotor.setAngle": "pin [PIN] पर सर्वो को [ANGLE] ° पर सेट करें",
+  "gui.extension.ledActuator.name": "LED एक्चुएटर",
+  "gui.extension.ledActuator.description": "LED को चालू, बंद, या निश्चित चमक पर सेट करें।",
+  "gui.extension.ledActuator.setDigital": "pin [PIN] पर LED [STATE] करें",
+  "gui.extension.ledActuator.setPWM": "pin [PIN] पर LED PWM [PWM] पर सेट करें",
+  "gui.extension.pirSensor.name": "PIR मोशन सेंसर",
+  "gui.extension.pirSensor.description": "मनुष्य या जानवर की गति का पता लगाएँ।",
+  "gui.extension.pirSensor.motionDetected": "pin [PIN] पर गति पहचानी गई?",
+  "gui.extension.pirSensor.waitMotion": "जब तक pin [PIN] पर गति न पहचानी जाए, रुकें",
+  "gui.extension.dhtSensor.name": "DHT तापमान और आर्द्रता",
+  "gui.extension.dhtSensor.description": "तापमान और आर्द्रता पढ़ें।",
+  "gui.extension.dhtSensor.read": "pin [PIN] पर DHT11 से [TYPE] पढ़ें",
+  "gui.extension.buzzerActuator.name": "बज़र एक्चुएटर",
+  "gui.extension.buzzerActuator.description": "विभिन्न टोन और आवृत्तियाँ बजाएँ।",
+  "gui.extension.buzzerActuator.playTone": "pin [PIN] पर टोन बजाएँ आवृत्ति [FREQ] Hz",
+  "gui.extension.buzzerActuator.off": "pin [PIN] पर टोन बंद करें"
 }

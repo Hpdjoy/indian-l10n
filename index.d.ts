@@ -5,33 +5,33 @@ export interface TranslationStrings {
 
 /** Metadata for a supported locale. */
 export interface LocaleInfo {
-  /** ISO 639-1 locale code */
+  /** ISO 639-1 / BCP 47 locale code */
   code: string;
   /** English name of the language */
   name: string;
   /** Name of the language in its own script */
   nativeName: string;
+  /** Whether the language is written right-to-left */
+  rtl: boolean;
 }
+
+/** All supported locale codes. */
+export type LocaleCode =
+  | 'en' | 'hi' | 'ta' | 'te' | 'bn'
+  | 'mr' | 'gu' | 'kn' | 'ml' | 'pa'
+  | 'or' | 'as' | 'ur' | 'sa' | 'ne'
+  | 'kok' | 'mai' | 'ks' | 'sd' | 'brx'
+  | 'doi' | 'mni' | 'sat';
 
 /** Map of locale codes to their translation strings. */
 export declare const languages: {
-  en: TranslationStrings;
-  hi: TranslationStrings;
-  ta: TranslationStrings;
-  te: TranslationStrings;
-  bn: TranslationStrings;
-  [code: string]: TranslationStrings;
-};
+  [K in LocaleCode]: TranslationStrings;
+} & { [code: string]: TranslationStrings };
 
 /** Metadata for each supported locale. */
 export declare const supportedLocales: {
-  en: LocaleInfo;
-  hi: LocaleInfo;
-  ta: LocaleInfo;
-  te: LocaleInfo;
-  bn: LocaleInfo;
-  [code: string]: LocaleInfo;
-};
+  [K in LocaleCode]: LocaleInfo;
+} & { [code: string]: LocaleInfo };
 
 /**
  * Get translation strings for a locale code.

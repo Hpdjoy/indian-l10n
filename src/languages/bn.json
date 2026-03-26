@@ -95,5 +95,32 @@
 
   "paint.colorPicker.color": "রঙ",
   "paint.colorPicker.saturation": "সম্পৃক্ততা",
-  "paint.colorPicker.brightness": "উজ্জ্বলতা"
+  "paint.colorPicker.brightness": "উজ্জ্বলতা",
+
+  "gui.extension.irSensor.name": "IR সেন্সর",
+  "gui.extension.irSensor.description": "ইনফ্রারেড সেন্সর দিয়ে বস্তু শনাক্ত করো।",
+  "gui.extension.irSensor.irReadDigital": "pin [PIN] এ IR সেন্সর বস্তু শনাক্ত করেছে?",
+  "gui.extension.irSensor.irReadAnalog": "pin [PIN] এ IR সেন্সরের মান",
+  "gui.extension.irSensor.irWaitDetect": "pin [PIN] এ IR সেন্সর বস্তু শনাক্ত না করা পর্যন্ত অপেক্ষা করো",
+  "gui.extension.ultrasonicSensor.name": "আল্ট্রাসোনিক সেন্সর",
+  "gui.extension.ultrasonicSensor.description": "আল্ট্রাসোনিক সেন্সর দিয়ে দূরত্ব মাপো।",
+  "gui.extension.ultrasonicSensor.readDistance": "আল্ট্রাসোনিক দূরত্ব (cm) পড়ো trig [TRIG] echo [ECHO]",
+  "gui.extension.servoMotor.name": "সার্ভো মোটর",
+  "gui.extension.servoMotor.description": "সার্ভো মোটরের সঠিক কোণ নিয়ন্ত্রণ করো।",
+  "gui.extension.servoMotor.setAngle": "pin [PIN] এ সার্ভো [ANGLE] ° তে সেট করো",
+  "gui.extension.ledActuator.name": "LED অ্যাক্চুয়েটর",
+  "gui.extension.ledActuator.description": "LED চালু, বন্ধ বা নির্দিষ্ট উজ্জ্বলতায় সেট করো।",
+  "gui.extension.ledActuator.setDigital": "pin [PIN] এ LED [STATE] করো",
+  "gui.extension.ledActuator.setPWM": "pin [PIN] এ LED PWM [PWM] তে সেট করো",
+  "gui.extension.pirSensor.name": "PIR মোশন সেন্সর",
+  "gui.extension.pirSensor.description": "মানুষ বা প্রাণীর নড়াচড়া শনাক্ত করো।",
+  "gui.extension.pirSensor.motionDetected": "pin [PIN] এ নড়াচড়া শনাক্ত হয়েছে?",
+  "gui.extension.pirSensor.waitMotion": "pin [PIN] এ নড়াচড়া শনাক্ত না হওয়া পর্যন্ত অপেক্ষা করো",
+  "gui.extension.dhtSensor.name": "DHT তাপমাত্রা ও আর্দ্রতা",
+  "gui.extension.dhtSensor.description": "তাপমাত্রা ও আর্দ্রতা পড়ো।",
+  "gui.extension.dhtSensor.read": "pin [PIN] এ DHT11 থেকে [TYPE] পড়ো",
+  "gui.extension.buzzerActuator.name": "বাজার অ্যাক্চুয়েটর",
+  "gui.extension.buzzerActuator.description": "বিভিন্ন টোন ও ফ্রিকোয়েন্সি বাজাও।",
+  "gui.extension.buzzerActuator.playTone": "pin [PIN] এ টোন বাজাও ফ্রিকোয়েন্সি [FREQ] Hz",
+  "gui.extension.buzzerActuator.off": "pin [PIN] এ টোন বন্ধ করো"
 }

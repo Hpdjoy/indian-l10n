@@ -95,5 +95,32 @@
 
   "paint.colorPicker.color": "Color",
   "paint.colorPicker.saturation": "Saturation",
-  "paint.colorPicker.brightness": "Brightness"
+  "paint.colorPicker.brightness": "Brightness",
+
+  "gui.extension.irSensor.name": "IR Sensor",
+  "gui.extension.irSensor.description": "Detect objects with an infrared sensor.",
+  "gui.extension.irSensor.irReadDigital": "IR sensor on pin [PIN] detects object?",
+  "gui.extension.irSensor.irReadAnalog": "IR sensor value on pin [PIN]",
+  "gui.extension.irSensor.irWaitDetect": "wait until IR sensor on pin [PIN] detects object",
+  "gui.extension.ultrasonicSensor.name": "Ultrasonic Sensor",
+  "gui.extension.ultrasonicSensor.description": "Measure distance with an ultrasonic sensor.",
+  "gui.extension.ultrasonicSensor.readDistance": "read ultrasonic distance (cm) trig [TRIG] echo [ECHO]",
+  "gui.extension.servoMotor.name": "Servo Motor",
+  "gui.extension.servoMotor.description": "Control the precise angle of a servo motor.",
+  "gui.extension.servoMotor.setAngle": "set servo on pin [PIN] to [ANGLE] °",
+  "gui.extension.ledActuator.name": "LED Actuator",
+  "gui.extension.ledActuator.description": "Turn LEDs on, off, or set to a specific brightness.",
+  "gui.extension.ledActuator.setDigital": "turn LED on pin [PIN] [STATE]",
+  "gui.extension.ledActuator.setPWM": "set LED PWM on pin [PIN] to [PWM]",
+  "gui.extension.pirSensor.name": "PIR Motion Sensor",
+  "gui.extension.pirSensor.description": "Detect human or animal motion.",
+  "gui.extension.pirSensor.motionDetected": "motion detected on pin [PIN]?",
+  "gui.extension.pirSensor.waitMotion": "wait until motion detected on pin [PIN]",
+  "gui.extension.dhtSensor.name": "DHT Temp & Humidity",
+  "gui.extension.dhtSensor.description": "Read temperature and humidity.",
+  "gui.extension.dhtSensor.read": "read [TYPE] from DHT11 on pin [PIN]",
+  "gui.extension.buzzerActuator.name": "Buzzer Actuator",
+  "gui.extension.buzzerActuator.description": "Play distinct tones and frequencies.",
+  "gui.extension.buzzerActuator.playTone": "play tone on pin [PIN] frequency [FREQ] Hz",
+  "gui.extension.buzzerActuator.off": "turn off tone on pin [PIN]"
 }
