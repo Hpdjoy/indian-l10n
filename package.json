@@ -1,6 +1,6 @@
 {
   "name": "indian-l10n",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Indian language localization package compatible with Scratch-style translation keys. Supports Hindi, Tamil, Telugu, Bengali, and more.",
   "main": "src/index.js",
   "types": "index.d.ts",
