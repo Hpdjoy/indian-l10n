@@ -1301,6 +1301,7 @@
   "SENSING_OF_VOLUME": "volume",
   "SENSING_OF_XPOSITION": "x position",
   "SENSING_OF_YPOSITION": "y position",
+  "SENSING_ONLINE": "अनलाइन छ?",
   "SENSING_RESETTIMER": "reset timer",
   "SENSING_SETDRAGMODE": "set drag mode %1",
   "SENSING_SETDRAGMODE_DRAGGABLE": "draggable",

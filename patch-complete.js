@@ -23,6 +23,7 @@ async function main() {
     'https://raw.githubusercontent.com/scratchfoundation/scratch-l10n/master/editor/interface/en.json',
     'https://raw.githubusercontent.com/scratchfoundation/scratch-l10n/master/editor/extensions/en.json',
     'https://raw.githubusercontent.com/scratchfoundation/scratch-l10n/master/editor/paint-editor/en.json',
+    'https://raw.githubusercontent.com/scratchfoundation/scratch-l10n/master/editor/blocks/en.json'
   ];
 
   let totalAdded = 0;
