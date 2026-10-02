@@ -25,18 +25,18 @@ const LOCALE_TO_GOOGLE = {
   ml: 'ml',    // Malayalam
   pa: 'pa',    // Punjabi
   or: 'or',    // Odia
-  as: 'as',    // Assamese  (may not be supported, falls back)
+  // as: 'as',    // Assamese  (may not be supported, falls back)
   ur: 'ur',    // Urdu
-  sa: 'sa',    // Sanskrit  (may not be supported, falls back to hi)
-  ne: 'ne',    // Nepali
-  kok: 'gom',  // Konkani (Goan Konkani in Google)
-  mai: 'mai',  // Maithili
-  ks: 'ks',    // Kashmiri  (may not be supported)
-  sd: 'sd',    // Sindhi
-  brx: 'brx',  // Bodo  (may not be supported)
-  doi: 'doi',  // Dogri
-  mni: 'mni-Mtei', // Manipuri (Meitei)
-  sat: 'sat',  // Santali  (may not be supported)
+  // sa: 'sa',    // Sanskrit  (may not be supported, falls back to hi)
+  // ne: 'ne',    // Nepali
+  // kok: 'gom',  // Konkani (Goan Konkani in Google)
+  // mai: 'mai',  // Maithili
+  // ks: 'ks',    // Kashmiri  (may not be supported)
+  // sd: 'sd',    // Sindhi
+  // brx: 'brx',  // Bodo  (may not be supported)
+  // doi: 'doi',  // Dogri
+  // mni: 'mni-Mtei', // Manipuri (Meitei)
+  // sat: 'sat',  // Santali  (may not be supported)
 };
 
 /**
@@ -46,7 +46,7 @@ function translateText(text, targetLang) {
   return new Promise((resolve, reject) => {
     // Protect placeholders: [PIN], [STATE], {username}, {learnMoreLink}, etc.
     const placeholders = [];
-    let protectedText = text.replace(/(\[[\w_]+\]|\{[\w_]+\}|&amp;|&quot;|&lt;|&gt;)/g, (match) => {
+    let protectedText = text.replace(/(\[\w+\]|\{\w+\}|%\d+|&amp;|&quot;|&lt;|&gt;)/g, (match) => {
       placeholders.push(match);
       return `PLACEHOLDER_${placeholders.length - 1}_END`;
     });
@@ -158,8 +158,12 @@ async function main() {
     // Find keys that need translation
     const missingEntries = [];
     for (const key of allKeys) {
-      if (!existing[key]) {
-        missingEntries.push({ key, value: enData[key] });
+      if (!existing[key] || existing[key] === enData[key]) {
+        if (/[a-zA-Z]/.test(enData[key])) {
+          missingEntries.push({ key, value: enData[key] });
+        } else if (!existing[key]) {
+          missingEntries.push({ key, value: enData[key] });
+        }
       }
     }
 
